@@ -32,9 +32,6 @@ func TestGetRecentRuns(t *testing.T) {
 			if len(got) < 1 {
 				t.Error("Empty results")
 			}
-			// if !reflect.DeepEqual(got, tt.want) {
-			// 	t.Errorf("GetRecentRuns() = %v, want %v", got, tt.want)
-			// }
 		})
 	}
 }
